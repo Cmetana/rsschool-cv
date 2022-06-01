@@ -1,4 +1,4 @@
-## Andrii Cherednichenko
+## Andrii Cherednichenko.
 
 ![photo](https://s.ws.pho.to/img/index/ai/source.jpg "Me")
 
