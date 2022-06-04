@@ -22,7 +22,7 @@ Im fully newbie on development, all what i learn will be new for me.
 ---
 ` <h1>Hello World</h1> `
 ---
-Newerbeen junior 
+Newerbeen junior.
 
 ---
 Im ending only collage with proffesion - accountant.
