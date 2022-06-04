@@ -25,3 +25,13 @@ Im fully newbie on development, all what i learn will be new for me.
 Newerbeen junior 
 
 ---
+Im ending only collage with proffesion - accountant.
+
+---
+My English is basic 59% (score from - https://www.efset.org/quick-check/take-test/#set15-190/result ) 
+
+* Reading Score - 78% 
+
+* Listening Score - 40% 
+
+---
