@@ -3,9 +3,6 @@ body {
   margin: 0 auto;
   padding: 80px;
 }
-header {
-  position: sticky;
-}
 .avatar {
  border-radius: 7px;
  width: 20vw;
