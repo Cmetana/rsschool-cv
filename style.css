@@ -42,7 +42,8 @@ padding: 12px 24px;
 }
 
 .english_photo {
-  width: 80vw;
+  width: 75vw;
+  margin: 0 auto;
 }
 .copyright {
   margin-right: 80vw;
