@@ -1,3 +1,56 @@
-.body {
-  font-size: 14px ;
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 80px;
+}
+header {
+  position: sticky;
+}
+.avatar {
+ border-radius: 7px;
+ width: 20vw;
+}
+.contacts {
+  font-size: 1.2em;
+}
+.item {
+  list-style: none;
+}
+.navbar {
+  display: inline flex;
+ list-style: none;
+ width: 400px;
+}
+#english {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.navbaritem {
+  margin-right: 25px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: royalblue;
+}
+.navbaritem:hover {
+  background-color: rgb(95, 127, 232);
+}
+code {
+  background-color: lightgrey;
+border: 1px solid black;
+padding: 12px 24px;
+}
+
+.english_photo {
+  width: 80vw;
+}
+.copyright {
+  margin-right: 80vw;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.rsshcool_logo {
+  float: right;
+  width: 7vw;
 }
