@@ -1,0 +1,149 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: gainsboro;
+}
+header {
+    background-color: dimgray;
+    height: 110px;
+    margin-top: 0;
+}
+.logo {
+    width: 100px;
+    position: relative;
+    float: left;
+    margin-right: 40%;
+    padding: 5px 5px 5px 10px;
+}
+nav {
+    position: absolute;
+}
+.navitem {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    list-style: none;
+    font-size: 1.5em;
+    color: azure;
+   
+}
+.navlist {
+    display: inline;
+}
+.navlink {
+    text-decoration: none;
+    margin-left: 40px;
+    border: 1px solid #000;
+    padding: 10px 20px 10px 20px;
+}
+.navlink:hover {
+background-color: darkolivegreen;
+}
+.contacts {
+    display: inline-block;
+    padding-left: 27%;
+    list-style: none;
+}
+.email_img, .telegram_logo {
+width: 14px;
+height: 12px;
+}
+
+.discord_logo {
+    width: 14px;
+    height: 14px;
+}
+.avatar {
+    border-radius: 110%;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 15%;
+    float: left;
+    margin-right: 150px;
+    transform: rotate(0deg);
+    transition: 2s;
+}
+.avatar:hover {
+    transform: rotate(180deg);
+    transition: 2s;
+}
+section h1 {
+   margin-top: 60px;
+   margin-right: 15%;
+   font-size: 2em;
+   text-transform: uppercase;
+   float: right;
+   border: 2px dotted #000;
+   padding: 5px 10px;
+}
+.about_me h2{
+   margin-top: 190px;
+   text-align: center;
+}
+.about_me p {
+    padding: 10px 100px 10px 100px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Tourney', cursive;
+    font-style: normal;
+    font-size: 1.4em;
+    border: 2px dotted #000;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding: 10px 0;
+}
+.contact {
+    list-style: none;
+}
+.item {
+    width: 1em;
+}
+blockquote {
+    border: 2px solid #000;
+    padding: 5px 10px ;
+    background-color: silver;
+    font-family: monospace;
+    width: fit-content;
+}
+.codeexample {
+    color: blue ;
+}
+.education {
+    list-style: none;
+}
+.education li {
+    display: block;
+    border-bottom: 2px dashed darkgoldenrod;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.date {
+    float: right;
+    color: orangered;
+    font-size: 1em;
+    font-family: monospace;
+    padding-top: 0.38em;
+}
+.hogwards {
+    font-family: 'Texturina', serif;
+    font-weight: 900;
+}
+.copyright {
+   
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .rsshcool_logo {
+      /* display: inline-block; */
+    float: right;
+    width: 5vw;
+    padding-right: 15px; 
+  }
+footer {
+    margin: 20px 10px;
+}
