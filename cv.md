@@ -5,7 +5,7 @@
 * Telegram - [@Cmetana](https://t.me/Cmetana "https://t.me/Cmetana")
 * GitHub - [@Cmetana](https://github.com/Cmetana "https://github.com/Cmetana")
 * Email - [cmetana@icloud.com](mailto:cmetana@icloud.com "cmetana@icloud.com")
-* Mobile - [+38 096 166 1066] (tel:+380961661066 "+380961661066")
+* Mobile - [+38 096 166 1066](tel:+380961661066 "+380961661066")
 ***
 ## About Me
 Im from Ukraine, Khmelnitskiy.
