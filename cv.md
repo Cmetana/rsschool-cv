@@ -63,4 +63,4 @@ function humanReadable(seconds) {
 # Russian (Native)
 
 
-![English level](/rsschool-cv/assets/img/eng_score.png "Efset")
+![English level](assets/img/eng_score.png "Efset")
