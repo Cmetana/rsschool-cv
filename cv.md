@@ -15,3 +15,28 @@ I like math, code and looking interest project on CodePen or Behance or Figma.
 _If you don't know how do that 
 - Only need ask Google._
 
+## Skills
+* HTML5, CSS3
+* GIT, GitHub
+* JavaScript Basics
+* VS Code
+* Figma, Photoshop, Canva
+
+## Code Example:
+
+```
+function humanReadable(seconds) {
+  if (seconds >= 0 && seconds <= 359999);
+  let HH = '';
+  let MM = '';
+  let SS = '';
+  HH = parseInt(seconds / 3600);
+  MM = parseInt((seconds - (HH * 3600))/60);
+  SS = seconds - ((HH * 3600) + (MM*60));
+  let checkHH = (HH < 10 ? '0'+HH : HH);
+  let checkMM = (MM < 10 ? '0'+MM : MM);
+  let checkSS = (SS < 10 ? '0'+SS : SS);
+  let result = (checkHH + ':' + checkMM + ':' +checkSS);
+   return result;
+}  
+```
