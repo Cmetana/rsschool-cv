@@ -10,26 +10,34 @@ main {
    
 }
 nav {
-   min-width: 25vw;
+   min-width: 30vw;
    margin-left: auto;
    margin-right: auto;
+   /* padding-left: 5px; */
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   border: 1px dotted #000;
 }
 article {
-    min-width: 70vw;
+    min-width: 65vw;
+    padding-left: 2vw;
+    padding-right: 4vw;
 }
 
-nav, article {
-    /* border: 1px double #000;  */
+.avatar_container {
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(to left, #ee0979, #ff6a00);
+    margin-top: 10px;
+    min-width: 19vw;
+    min-height: 19vw;
+    border-radius: 90%;
 }
 .avatar_img {
-    display: flex;
     width: 20vw;
-    border-radius: 10%;
-    border: 1px dotted #000;
+    margin-bottom: -2px;
 }
 .name_container h2 {
     padding-bottom: 0;
@@ -47,10 +55,6 @@ nav, article {
     padding: 5px 0;
     margin: 0;
 }
-.name_title hr {
-    flex-direction: row;
-    width: 3.5vw;
-}
 
 .footer_container {
     padding: 0;
@@ -63,19 +67,31 @@ nav, article {
     padding-left: 2.4vw;
     padding-right: 4vw;
 }
+.nav_contacts {
+    padding-right: auto;
+}
+
 .contacts_list {
-    padding: 0;
-    margin: 0;
-    font-size: larger;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* font-size: 16px; */
+    /* padding-inline-start: 0; */
+}
+ul {
+    padding-inline-start: 0;
+    /* box-sizing: border-box; */
 }
 .contacts_list li img {
-    max-width: 25px;
-    padding-right: 5px;
+    max-width: 20px;
+    /* box-sizing: border-box; */
+    /* padding-right: 5px; */
 }
 .contacts_list li {
+    /* box-sizing: border-box; */
     display: flex;
     align-items: center;
-    margin: 3px 0;
+    /* margin: 3px 0; */
+    padding: 3px 0;
 }
 .contacts_list a, a:visited {
     color: #c9c9c9;
@@ -156,4 +172,23 @@ nav, article {
     border-radius: 4px;
     width: 38%;
     background-color: #f25c14;
+}
+.nav_languages span {
+    display: inline-block;
+    padding-bottom: 4px;
+    /* font-size: 18px; */
+
+line-height: 1.4em;    /* font-weight: bold; */
+}
+
+.about_me {
+    box-sizing: border-box;
+    /* padding-left: 2vw; */
+    padding-right: 6vw;
+}
+blockquote {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 4px;
+    font-family: monospace;
 }
