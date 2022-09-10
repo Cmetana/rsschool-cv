@@ -7,7 +7,6 @@ main {
 }
 .main_container {
     display: flex;
-   
 }
 nav {
    min-width: 30vw;
@@ -24,7 +23,6 @@ article {
     padding-left: 2vw;
     padding-right: 4vw;
 }
-
 .avatar_container {
     display: flex;
     align-items: flex-end;
@@ -53,7 +51,6 @@ article {
     padding: 5px 0;
     margin: 0;
 }
-
 .footer_container {
     padding: 0;
     margin: 0 auto;
@@ -68,8 +65,6 @@ article {
 .nav_contacts {
     padding-right: auto;
 }
-
-
 ul {
     padding-inline-start: 0;
 }
@@ -84,14 +79,12 @@ ul {
 .contacts_list a, a:visited {
     color: #c9c9c9;
 }
-
 .progress {
     margin: 0 auto;
     margin-left: -1%;
     width: 100%;
     box-sizing: border-box;
   }
-  
   .progress {
     padding: 2px;
     margin: 3px 0;
@@ -108,9 +101,7 @@ ul {
     line-height: 120%;
     color: #000;
     text-shadow: 1px 1px 2px rgb(110, 197, 210);
-   
   }
-  
   .progress-html {
     display: inline-flex;
     justify-content: space-between;
@@ -119,8 +110,6 @@ ul {
     width: 85%;
     background-color: #cdf213;
 }
-
-
 .progress-css {
     display: inline-flex;
     justify-content: space-between;
@@ -164,9 +153,8 @@ ul {
 .nav_languages span {
     display: inline-block;
     padding-bottom: 4px;
-line-height: 1.4em;
+    line-height: 1.4em;
 }
-
 .about_me {
     box-sizing: border-box;
     padding-right: 6vw;
