@@ -13,7 +13,6 @@ nav {
    min-width: 30vw;
    margin-left: auto;
    margin-right: auto;
-   /* padding-left: 5px; */
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -42,7 +41,6 @@ article {
 .name_container h2 {
     padding-bottom: 0;
     margin: 0;
-    /* font-size: 2.3vw; */
 }
 .name_container p {
     padding-top: 0;
@@ -71,26 +69,16 @@ article {
     padding-right: auto;
 }
 
-.contacts_list {
-    /* padding: 0; */
-    /* margin: 0; */
-    /* font-size: 16px; */
-    /* padding-inline-start: 0; */
-}
+
 ul {
     padding-inline-start: 0;
-    /* box-sizing: border-box; */
 }
 .contacts_list li img {
     max-width: 20px;
-    /* box-sizing: border-box; */
-    /* padding-right: 5px; */
 }
 .contacts_list li {
-    /* box-sizing: border-box; */
     display: flex;
     align-items: center;
-    /* margin: 3px 0; */
     padding: 3px 0;
 }
 .contacts_list a, a:visited {
@@ -176,14 +164,11 @@ ul {
 .nav_languages span {
     display: inline-block;
     padding-bottom: 4px;
-    /* font-size: 18px; */
-
-line-height: 1.4em;    /* font-weight: bold; */
+line-height: 1.4em;
 }
 
 .about_me {
     box-sizing: border-box;
-    /* padding-left: 2vw; */
     padding-right: 6vw;
 }
 blockquote {
