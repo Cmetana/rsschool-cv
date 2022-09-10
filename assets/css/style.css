@@ -1,0 +1,56 @@
+main {
+    max-width: 95vw;
+    margin: 0 auto;
+    border-radius: 1.5vw;
+    background: linear-gradient(to top, #1690b2, #1a1ab3);
+}
+.main_container {
+    display: flex;
+   
+}
+nav {
+   min-width: 25vw;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+article {
+    min-width: 70vw;
+}
+
+nav, article {
+    /* border: 1px double #000;  */
+}
+.avatar_img {
+    display: flex;
+    width: 20vw;
+    border-radius: 10%;
+    border: 1px dotted #000;
+}
+.name_container h2 {
+    padding-bottom: 0;
+    margin: 0;
+}
+.name_container p {
+    padding-top: 0;
+    margin: 0;
+}
+.name_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 0;
+}
+.name_title hr {
+    flex-direction: row;
+    width: 3.5vw;
+}
+
+.footer_container {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 95vw;
+}
