@@ -63,6 +63,23 @@ nav, article {
     padding-left: 2.4vw;
     padding-right: 4vw;
 }
+.contacts_list {
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+}
+.contacts_list li img {
+    max-width: 25px;
+    padding-right: 5px;
+}
+.contacts_list li {
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+}
+.contacts_list a, a:visited {
+    color: #c9c9c9;
+}
 
 .progress {
     margin: 0 auto;
@@ -140,4 +157,3 @@ nav, article {
     width: 38%;
     background-color: #f25c14;
 }
-  
